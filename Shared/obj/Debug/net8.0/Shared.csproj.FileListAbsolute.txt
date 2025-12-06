@@ -9,3 +9,14 @@ C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\Shared.dl
 C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\refint\Shared.dll
 C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\Shared.pdb
 C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\ref\Shared.dll
+C:\networksecurity\Shared\bin\Debug\net8.0\Shared.deps.json
+C:\networksecurity\Shared\bin\Debug\net8.0\Shared.dll
+C:\networksecurity\Shared\bin\Debug\net8.0\Shared.pdb
+C:\networksecurity\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\networksecurity\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+C:\networksecurity\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+C:\networksecurity\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+C:\networksecurity\Shared\obj\Debug\net8.0\Shared.dll
+C:\networksecurity\Shared\obj\Debug\net8.0\refint\Shared.dll
+C:\networksecurity\Shared\obj\Debug\net8.0\Shared.pdb
+C:\networksecurity\Shared\obj\Debug\net8.0\ref\Shared.dll
