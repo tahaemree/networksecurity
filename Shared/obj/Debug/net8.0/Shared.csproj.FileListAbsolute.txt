@@ -1,0 +1,11 @@
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\bin\Debug\net8.0\Shared.deps.json
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\bin\Debug\net8.0\Shared.dll
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\bin\Debug\net8.0\Shared.pdb
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\Shared.dll
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\refint\Shared.dll
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\Shared.pdb
+C:\Users\tahaemre\Desktop\ag_guvenligi_bitirme\Shared\obj\Debug\net8.0\ref\Shared.dll
