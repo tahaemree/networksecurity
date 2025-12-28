@@ -15,7 +15,6 @@ namespace CA
         private TcpListener? listener;
         private CancellationTokenSource? cancellationTokenSource;
         private int certificatesIssued = 0;
-        private int activeConnections = 0;
         private string caPublicKey = string.Empty;
         private string caPrivateKey = string.Empty;
 
@@ -47,7 +46,6 @@ namespace CA
             else
             {
                 lblCertsIssued.Text = $"Certificates Issued: {certificatesIssued}";
-                lblActiveConnections.Text = $"Active Connections: {activeConnections}";
             }
         }
 
@@ -133,8 +131,6 @@ namespace CA
                         if (listener.Pending())
                         {
                             TcpClient client = listener.AcceptTcpClient();
-                            Interlocked.Increment(ref activeConnections);
-                            UpdateStats();
                             Task.Run(() => HandleClient(client, caPublicKey, caPrivateKey));
                         }
                         else
@@ -252,11 +248,6 @@ namespace CA
             catch (Exception ex)
             {
                 Log($"✗ Client Handling Error [{clientEndPoint}]: {ex.Message}");
-            }
-            finally
-            {
-                Interlocked.Decrement(ref activeConnections);
-                UpdateStats();
             }
         }
     }

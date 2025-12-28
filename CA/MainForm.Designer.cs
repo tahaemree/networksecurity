@@ -23,7 +23,6 @@ namespace CA
             this.panelStats = new System.Windows.Forms.Panel();
             this.lblStatsTitle = new System.Windows.Forms.Label();
             this.lblCertsIssued = new System.Windows.Forms.Label();
-            this.lblActiveConnections = new System.Windows.Forms.Label();
             this.lblStatus = new System.Windows.Forms.Label();
             this.groupClients = new System.Windows.Forms.GroupBox();
             this.listViewClients = new System.Windows.Forms.ListView();
@@ -93,7 +92,6 @@ namespace CA
             // panelStats
             // 
             this.panelStats.Controls.Add(this.lblStatus);
-            this.panelStats.Controls.Add(this.lblActiveConnections);
             this.panelStats.Controls.Add(this.lblCertsIssued);
             this.panelStats.Controls.Add(this.lblStatsTitle);
             this.panelStats.Dock = System.Windows.Forms.DockStyle.Top;
@@ -121,15 +119,6 @@ namespace CA
             this.lblCertsIssued.Size = new System.Drawing.Size(116, 15);
             this.lblCertsIssued.TabIndex = 1;
             this.lblCertsIssued.Text = "Certificates Issued: 0";
-            // 
-            // lblActiveConnections
-            // 
-            this.lblActiveConnections.AutoSize = true;
-            this.lblActiveConnections.Location = new System.Drawing.Point(200, 35);
-            this.lblActiveConnections.Name = "lblActiveConnections";
-            this.lblActiveConnections.Size = new System.Drawing.Size(126, 15);
-            this.lblActiveConnections.TabIndex = 2;
-            this.lblActiveConnections.Text = "Active Connections: 0";
             // 
             // lblStatus
             // 
@@ -246,7 +235,6 @@ namespace CA
         private System.Windows.Forms.Panel panelStats;
         private System.Windows.Forms.Label lblStatsTitle;
         private System.Windows.Forms.Label lblCertsIssued;
-        private System.Windows.Forms.Label lblActiveConnections;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.GroupBox groupClients;
         private System.Windows.Forms.ListView listViewClients;
